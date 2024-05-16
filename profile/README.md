@@ -11,7 +11,7 @@ Format: `<type>(<scope>): <subject>`
 feat: added new bananas
 ^--^  ^---------------^
 |     |
-|     +-> Summary in present tense.
+|     +-> Summary in past tense.
 |
 +-------> Type: feat, fix, docs, qol, change.
 ```
@@ -65,7 +65,7 @@ I've done some insane changes to add new bananas.
 ```
 
 ## Code Reviews
-Any pull request should not be merged to `dev` branchs without a code review from someone else.
+Any pull request should not be merged to `dev` branches without a code review from someone else.
 if person A makes a pull request, another person B should review the code. If person B asks for changes,
 person A should make the necessary changes and re-request review from person B. This cycle will continue 
 until person B says `LGTM` which stands for `Looks good to me`.
@@ -74,7 +74,7 @@ until person B says `LGTM` which stands for `Looks good to me`.
 > If you push to your branch, the pull request should be automatically updated for the reviewer.
 
 The rule of thumb is if you have contribution in a pull request, then a person that doesn't have contribution
-to the pull request should do a review. This is just for having someone look at the pull request with fresh eyes.
+in that pull request should do a review. This is just for having someone look at the pull request with fresh eyes.
 
 > [!IMPORTANT]
 > Code reviews are for merging to respective `dev` branches. If a pull request made it to the `dev` branch,
