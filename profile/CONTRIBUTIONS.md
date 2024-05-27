@@ -1,7 +1,7 @@
 # Contributions Guidelines
 ## Don't hesistate to use whitespaces!
 Here are a few examples:
-:x:
+❌
 ```javascript
 if(num1>num2){
     return {num1,num2};
@@ -17,7 +17,7 @@ if (num1 > num2) {
 
 ## Opening curly braces
 `{`, the curly brace should be on the same line with the condition or the function/class definition (both JS and Java)
-:x:
+❌
 ```javascript
 function isPrime(x)
 {
